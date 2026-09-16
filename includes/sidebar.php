@@ -51,6 +51,7 @@ function nav_item(string $key, string $active, string $url, string $icon, string
         <?php nav_item('homework', $activeMenu, base_url('student/homework.php'), 'fa-book-open', 'Homework'); ?>
         <?php nav_item('exams', $activeMenu, base_url('student/exams.php'), 'fa-file-pen', 'Exams'); ?>
         <?php nav_item('results', $activeMenu, base_url('student/results.php'), 'fa-trophy', 'Results'); ?>
+        <?php nav_item('performance', $activeMenu, base_url('student/performance.php'), 'fa-chart-line', 'My Performance'); ?>
         <?php nav_item('fees', $activeMenu, base_url('student/fees.php'), 'fa-money-bill', 'Fees'); ?>
         <?php nav_item('notices', $activeMenu, base_url('student/notices.php'), 'fa-bullhorn', 'Notices'); ?>
         <?php nav_item('events', $activeMenu, base_url('student/events.php'), 'fa-star', 'School Events'); ?>
