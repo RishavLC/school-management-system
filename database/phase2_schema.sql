@@ -145,3 +145,4 @@ SELECT s.id, subj.id, 58, 75, 'Improve Mathematics performance through extra pra
 FROM students s, subjects subj
 WHERE s.admission_number = 'LIL-2025-004' AND subj.code = 'MATH'
 AND NOT EXISTS (SELECT 1 FROM student_goals g WHERE g.student_id = s.id AND g.subject_id = subj.id);
+the further INSERT statements for demo data can be added similarly, ensuring that they are idempotent and do not create duplicates if the script is run multiple times.
